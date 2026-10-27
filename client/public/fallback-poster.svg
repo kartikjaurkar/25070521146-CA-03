@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 750" role="img" aria-labelledby="title desc">
+  <title id="title">CineBook poster placeholder</title>
+  <desc id="desc">A dark cinematic placeholder for a movie poster</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#181b26"/>
+      <stop offset=".55" stop-color="#0e1017"/>
+      <stop offset="1" stop-color="#22090d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".38" r=".5">
+      <stop offset="0" stop-color="#e50914" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#e50914" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="750" fill="url(#bg)"/>
+  <rect width="500" height="750" fill="url(#glow)"/>
+  <g stroke="#ffffff" stroke-opacity=".14" fill="none">
+    <rect x="135" y="278" width="230" height="170" rx="20"/>
+    <path d="M135 330h230M200 278v52M262 278v52M324 278v52"/>
+    <path d="M190 395h120" stroke-linecap="round"/>
+  </g>
+  <text x="250" y="530" text-anchor="middle" fill="#f5f6fa" font-family="Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-1">CineBook</text>
+  <text x="250" y="570" text-anchor="middle" fill="#9aa0b4" font-family="Arial, sans-serif" font-size="15" letter-spacing="4">NOW SHOWING</text>
+  <rect x="205" y="610" width="90" height="3" rx="1.5" fill="#e50914"/>
+</svg>
